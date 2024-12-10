@@ -24,7 +24,7 @@ type (
 func NewConfig() (Config, error) {
 
 	return Config{Mongo: Mongo{
-		Uri:      "mongodb+srv://bizozobi30:tme4Q8h82HZurtij@ecom-cluseter.k4b1d.mongodb.net/?retryWrites=true&w=majority&appName=ecom-cluseter",
+		Uri:      "",
 		Database: "ecommerce",
 		Timeout:  10 * time.Second,
 	},
